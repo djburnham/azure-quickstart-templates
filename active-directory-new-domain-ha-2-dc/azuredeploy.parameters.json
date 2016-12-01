@@ -6,10 +6,10 @@
       "value": "domaintstsa"
     },
     "adminUsername": {
-      "value": "vmuser"
+      "value": "vmadmin"
     },
     "adminPassword": {
-      "value": "p0rtico%1974"
+      "value": "chooseYourOwnPW"
     },
     "adVMSize": {
       "value": "Standard_DS2_v2"
@@ -21,10 +21,10 @@
       "value": "myPubIp"
     },
     "domainName": {
-      "value": "djbdomaintest.local"
+      "value": "linkfield-data.com"
     },
     "assetLocation": {
-      "value": "https://github.com/Azure/azure-quickstart-templates/raw/master/active-directory-new-domain-ha-2-dc/"
+      "value": "https://github.com/djburnham/azure-quickstart-templates/tree/master/active-directory-new-domain-ha-2-dc/"
     }
   }
 }

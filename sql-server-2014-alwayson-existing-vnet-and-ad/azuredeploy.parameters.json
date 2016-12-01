@@ -3,25 +3,31 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "namePrefix": {
-      "value": "GEN-UNIQUE-8"
+      "value": "sqlactr"
     },
     "existingDomainName": {
-      "value": "contoso.com"
+      "value": "djbdomaintest.local"
     },
     "adminUsername": {
-      "value": "AzureAdmin"
+      "value": "vmadmin"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "p0rtico%1974"
     },
     "sqlServerServiceAccountUserName": {
       "value": "sqlservice"
     },
     "sqlServerServiceAccountPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "p0rtico%1975"
     },
     "existingSqlSubnetName": {
-      "value": "default"
+      "value": "adSubnet"
     },
+	"existingVirtualNetworkId": {
+      "value": "/subscriptions/597b4024-f551-421e-a4be-9b3ea38296bc/resourceGroups/active-directory-new-domain-ha-2-dc/providers/Microsoft.Network/virtualNetworks/adVNET"
+    },
+		"existingAdPDCVMName": {
+      "value": "adPDC"
+    }
   }
 }
