@@ -32,7 +32,7 @@
     },
     "assetLocation": {
 	  "type": "string",
-      "value": 'https://github.com/djburnham/azure-quickstart-templates/tree/master/active-directory-new-domain-ha-2-dc/'
+       "value": "https://github.com/djburnham/azure-quickstart-templates/raw/master/active-directory-new-domain-ha-2-dc/"
     }
   }
 }
