@@ -3,28 +3,36 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
+	  "type": "string",
       "value": "domaintstsa"
     },
     "adminUsername": {
+	  "type": "string",
       "value": "vmadmin"
     },
     "adminPassword": {
-      "value": "chooseYourOwnPW"
+	  "type": "string",
+      "value": "p0rtic0%1974"
     },
     "adVMSize": {
+	  "type": "string",
       "value": "Standard_DS2_v2"
     },
     "dnsPrefix": {
+	  "type": "string",
       "value": "djbdomaintest"
     },
     "publicIPAddressName": {
+	  "type": "string",
       "value": "myPubIp"
     },
     "domainName": {
+	  "type": "string",
       "value": "linkfield-data.com"
     },
     "assetLocation": {
-      "value": "https://github.com/djburnham/azure-quickstart-templates/tree/master/active-directory-new-domain-ha-2-dc/"
+	  "type": "string",
+      "value": 'https://github.com/djburnham/azure-quickstart-templates/tree/master/active-directory-new-domain-ha-2-dc/'
     }
   }
 }
